@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import DataFetch from "./components/DataFetch";
+import ReduceHook from "./components/ReduceHook";
+import ReduceHookTwo from "./components/ReduceHookTwo";
+import Riddhiman from "./components/Riddhiman";
+import Fetch from "./components/Fetch";
+import DataFetchOne from "./components/DataFetchOne";
+import DataFetchReducer from "./components/DataFetchReducer";
+import Style from "./components/Style";
+import UseStatePrac from "./components/UseStatePrac";
+import HookCounter from "./components/HookCounter";
+import HookCounterThree from "./components/HookCounterThree";
+
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DataFetchOne />
+      {/* <HookCounter /> */}
+      {/*   <HookCounterThree /> */}
+      {/* <UseStatePrac /> */}
+      {/* <Style /> */}
+      {/*  <UserContext.Provider value={"Hello"}>
+      <ChannelContext.Provider value={"World"}>
+        <ComponentC />
+      </ChannelContext.Provider>
+    </UserContext.Provider> */}
+      {/* <DataFetch /> */}
+      {/*  <ReduceHook /> */}
+      {/* <ReduceHookTwo /> */}
+      {/*  <Riddhiman /> */}
+      {/* <Fetch /> */}
+      {/* <DataFetchOne /> 
+      {/* <DataFetchReducer /> */}
     </div>
   );
 }

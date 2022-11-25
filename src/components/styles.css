@@ -1,0 +1,25 @@
+body{
+    background-color:white;
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    background-color: #f5f5f5;
+    font-size: 40px;
+    font-weight: 500;
+    color: #2f2f2f;
+    padding: 0px 10px;
+}
+
+.red{
+    color: red;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 100px;
+
+
+}
